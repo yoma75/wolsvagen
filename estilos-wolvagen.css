@@ -1,0 +1,333 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #F8FAF9 !important;
+}
+
+.navbar{
+    background-color: white;
+    box-shadow: -2px 7px 20px -1px rgba(202,247,24,1);
+    min-height: 100px;
+}
+
+/*items de navbar*/
+.nav-link{
+    color: black;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: red;
+}
+
+/*Logo*/
+.logo-brand{
+    min-width: 100px;
+    max-width: 140px;
+    height: 100px;
+}
+
+/*icono menu*/
+.navbar-toggler i { font-size: 47px; }
+.navbar-toggler:focus{ outline: none; }
+
+/*imagen fondo*/
+#hero{
+    background-image: url('../wolsvagen/imagenes/Concesioario.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;    
+}
+
+/* Fondo gris encima de foto concesionario */
+.fondo-color {
+    background-color: #1c1c1d86;
+    padding-bottom: 2px;    
+}
+
+
+/*contenedor del texto imagen principal y segundo*/
+.content-center{
+    max-width: 800px;   
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+/*texto section dos: toco acomodarlo a las malas*/
+.parrafo1{
+    margin-top: -30px;
+}
+.parrafo{
+    max-width: 800px;
+    margin-top: -40px; 
+    font-size: 17px;
+}
+
+/*texto*/
+.content-center h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.content-center p{
+    font-size: 20px;
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.topmargin-xs{ margin-top: 15px; }
+.topmargin-sm{ margin-top: 30px; } 
+.topmargin-lg{ margin-top: 140px; } /*Entre el borde superior de la imagen principal y el texto*/
+
+/*boton*/
+.content-center a{
+    font-size: 15px;
+    padding: 15px 26px;  /*15px: arriba y abajo, 26px: hacia los lados*/    
+    font-weight: bold;
+}
+
+/*espacio entre el icono del boton y el texto interno del boton*/
+.btn i{
+    font-size: 12px;
+    margin-left: 7px;
+    color: yellowgreen;
+}
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+.portfolio-details{
+    position: absolute;
+    bottom: 140px;
+    left: 30px;
+    z-index: 9000;    
+}
+
+/*foto automovil T-Cross texto*/
+.portfolio-details a h2, .portfolio-details a p{
+    color: rgb(13, 124, 221);
+    font-weight: bold;
+}
+
+/*Quita el subrayado al texto automovil T-Cross*/
+.portfolio-details a:hover{
+    text-decoration: none;
+}
+
+.container-fluid{
+    margin-top: -30px;
+}
+
+/*edicion texto automoviles fila 2*/
+.texto a h2, .texto a p{
+    color: white;
+}
+
+/*aumento de zom fotos carros*/
+.portfolio-container img{
+    transition: all 0.8s ease; /* velocidad con se acerca y se aleja */
+}
+.portfolio-container:hover img{
+    transform: scale(1.2); /* zoom de la imagen */
+}
+
+.bg-light-grey{
+    background-color: #5CA8B8;
+}
+
+/*texto fondo gris*/
+.text2 h1{
+    font-size: 45px;
+    padding-top: 55px;
+    color: white;
+}
+.text2 p{
+    color: white;
+}
+
+/*quedan parejas en altura las fotos de las tarjetas*/
+.card img{
+    height: 260px !important;
+}
+
+/* altura del cuerpo card */
+.card-body{
+    height: 160px;
+}
+
+/* Tamaño, color y espacio iconos REDES SOCIALES */
+.list-inline i {
+    font-size: 23px;
+    color: #5CA8B8;
+    padding: 0 5px;
+}
+
+.card{
+    border: none !important;
+}
+
+.plans{
+    padding: 50px 80px;
+    border-radius: 3px;
+    min-width: 450px;
+}
+
+/* texto plan */
+.plans h4{
+   padding-top: 12px;
+}
+.plans h2{    
+    font-weight: bold;
+}
+
+/* cambiar a cuadrados los puntos */
+.plans ul{
+    list-style: square;
+}
+
+/* recuadros de planes */
+.plan-light{
+    background-color: #433764;
+    color: white;
+    border-radius: 20px;
+        
+}
+.plan-rosado{
+    background-color: #E04B4B;   
+    color: white;
+    border-radius: 20px;
+}
+
+.btn {
+    background-color: white !important;
+    border-radius: 20px !important;
+}
+
+/* Boton negro, cuadro blanco */
+.boton1 {
+    background-color: white !important;    
+    width: 100%;
+    font-size: 20px !important;    
+}
+
+.carousel {
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: -33px;
+}
+
+.carousel p {
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+}
+
+.carousel-indicators li {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    color: white;
+    opacity: 1;
+    width: 5px;
+}
+
+.carrousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-user {
+    max-width: 180px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonial-user h6 {
+    margin-bottom: 0px;
+}
+
+.raiting i {
+    font-size: 25px;
+    color: #ffb944;
+}
+
+.foto2, .foto3 {
+    border-radius: 50%;
+    height: 70px !important;
+    width: 70px;
+
+}
+
+/*botones de comentarios clientes*/
+.control-button {
+    background-color: #c8f123;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.form-control {
+    width: 400px !important;
+}
+
+.fondopie {
+	background-color: yellow;
+	padding: 45px;
+}
+
+@media (min-width:320px) and (max-width:506px) {
+    .plans {       
+        padding: 20px 20px;        
+        min-width: 250px;
+        margin-bottom: 19px;
+    }
+
+    .form-control {
+        width: 280px !important;    
+    }
+
+    .card {
+        margin-bottom: 19px;
+    }
+}
+
+@media (min-width:507px) and (max-width:765px) {
+    .plans {
+        margin-top: 19px;
+    }
+
+    .card {
+        margin-bottom: 19px;
+        width: 350px;
+        margin-left: 70px;
+    }
+
+    .fotoMargen {
+        margin-left: 54px;
+    }
+    .texticoMargen {
+        margin-left: 34px;
+    }
+
+    .form-control {
+        width: 430px !important;    
+    }
+
+    form {
+        margin-left: 14px;
+    }
+}
