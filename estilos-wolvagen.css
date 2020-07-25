@@ -31,7 +31,7 @@ body{
 
 /*imagen fondo*/
 #hero{
-    background-image: url('../wolsvagen/imagenes/Concesioario.jpg');
+    background-image: url('./imagenes/Concesioario.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
@@ -266,7 +266,7 @@ body{
     border-radius: 50%;
     height: 70px !important;
     width: 70px;
-
+    object-fit: cover;
 }
 
 /*botones de comentarios clientes*/
