@@ -2,359 +2,360 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Mi pagina de estilos css-->
-    <link rel="stylesheet" href="estilos-wolvagen.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- Fuentes-->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
-
-    <!--Iconos-->
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-    <title>Wolsvagen</title>
-
-    <!--icono pestaña-->
-    <link rel="shortcut icon" type="text/css" href="imagenes/logo.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="estilos-wolvagen.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  <title>Wolsvagen</title>
+  <link rel="shortcut icon" type="text/css" href="imagenes/logo.jpg">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg"> <!--fixed-top: el navbar se queda fijo-->
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="imagenes/logo.jpg" class="logo-brand" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class = "icon ion-md-menu"></i> <!--icono menu-->
-            </button>
+  <nav class="navbar navbar-expand-lg">
+    <!--fixed-top: el navbar se queda fijo-->
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="imagenes/logo.jpg" class="logo-brand" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon ion-md-menu"></i>
+        <!--icono menu-->
+      </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <!-- ml-auto: menu lado derecho y mr-auto: menu lado izquierdo-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home" id="home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portafolios">Portafolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#abautus">Abaut us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonios">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <!-- ml-auto: menu lado derecho y mr-auto: menu lado izquierdo-->
+          <li class="nav-item">
+            <a class="nav-link" href="#home" id="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portafolios">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#abautus">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--Cierra container navbar-->
+  </nav>
+
+  <section id="hero">
+    <div class="col-md fondo-color">
+      <div class="container">
+        <div class="content-center topmargin-sm">
+          <h1 class="pt-4">Potencia e ingenieria</h1>
+          <p>El sitio web oficial de Volkswagen Colombia. ¡Un VW es más que solo un automóvil! Encuentre todo sobre
+            nuestros modelos, ofertas, servicios y accesorios.</p>
+          <a href="#" class="btn btn-light topmargin-sm">Explorar mas..!!
+            <i class="icon ion-md-arrow-dropright-circle"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portafolios">
+    <div class="container-fluid mt-5">
+      <h2 class="parrafo1 content-center mt-5" style="max-width: 800px;">Trabajamos construyendo el futuro para tu
+        bienestar y desarrollo.</h2>
+      <p class="parrafo content-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blandíais,ipsum!
+        Quistás obcecare debatis laceré, consequuntur vitae laboriosam est asperear libero, esse facilis inventore,
+        quasi pariatur vel ducimus doloremque quis. Voluptatem facere consequuntur animi perferendis?</p>
+    </div>
+
+    <!-- Automoviles -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 col-xl-4">
+          <div class="portfolio-container justify-content-around">
+            <img style="width:103%;height:275px;object-fit:cover;" src="imagenes/T-cross.png" alt="automovil"
+              class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="portfolio-container">
+            <img style="width:100%;height:275px;object-fit:cover;" src="imagenes/auto2-m.png" alt="automovil"
+              class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="portfolio-container justify-content-around">
+            <img style="width:100%;height:275px;object-fit:cover;" src="imagenes/VOLKSWAGEN-GOLF.png" alt="automovil"
+              class="img-fluid">
+          </div>
+        </div>
+      </div> <!-- final primer row fotos carros-->
+    </div>
+    <!--final container fotos carros-->
+
+    <div class="text-center mt-5">
+      <p style="font-size:19px">Acelera tu presente rumbo al futuro</p>
+      <a href="#" style="font-weight:bold;font-size:19px">Justo ahora</a>
+    </div>
+  </section>
+
+  <section id="abautus" class="bg-light-grey">
+    <div class="container mt-5" style="padding-bottom:80px">
+      <div class="content-center text2">
+        <h1>Keep calm you're in a <strong>good company</strong></h1>
+        <p>El sitio web oficial de Volkswagen Colombia. ¡Un VW es más que solo un automóvil! Encuentre todo sobre
+          nuestros modelos, ofertas, servicios y accesorios.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="imagenes/cara1.jpg" alt="Card image" style="width:100%"
+              title="Carolina Rodriguez">
+            <div class="card-body">
+              <h4 class="card-title text-center">Carolina Rodriguez B.</h4>
+              <p class="card-text text-center">Gerente ejecutiva</p>
+              <ul class="list-inline text-center">
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-instagram" title="Instagram"></i></a>
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-twitter" title="Twitter"></i></a>
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-youtube" title="YouTube"></i></a>
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-facebook" title="Facebook"></i></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="imagenes/cara3.jpg" alt="Card image" style="width:100%"
+              title="Manuel Karzon">
+            <div class="card-body">
+              <h4 class="card-title text-center">Manuel Karzon H.</h4>
+              <p class="card-text text-center">Diseñador creativo</p>
+              <ul class="list-inline text-center">
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-instagram"></i></a>
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-twitter"></i></a>
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-youtube"></i></a>
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-facebook"></i></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="imagenes/cara2.jpg" alt="Card image" style="width:100%"
+              title="Jose Luis Martinez">
+            <div class="card-body">
+              <h4 class="card-title text-center">Jose Luis Martinez</h4>
+              <p class="card-text text-center">Ingeniero industrial</p>
+              <ul class="list-inline text-center">
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-instagram"></i></a>
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-twitter"></i></a>
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-youtube"></i></a>
+                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-facebook"></i></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--final row-->
+    </div>
+    <!--final container-->
+  </section>
+
+  <section id="pricing">
+    <div class="container">
+      <div class="content-center text2">
+        <h1 style="color:#E04B4B">Aprovecha, <strong>descuentos del 20%</strong></h1>
+        <p style="color:#433764">Por compra de cualquiera de nuestros modelos, recibe un descuento del 20% en las tres
+          primeras cuotas mensuales.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md col-sm-12">
+          <div class="pricing-container">
+            <div class="plans plan-light">
+              <h4>Cuotas desde:</h4>
+              <h2>$ 450.000 mensuales</h2>
+              <h4>Si tienes puntos acumulados:</h4>
+              <ul class="topmargin-xs">
+                <li>Integracion con GPS</li>
+                <li>Pagos en linea</li>
+                <li>Servicio las 24 horas del dia</li>
+                <li>Seguro 50% gratis dos meses.</li>
+              </ul>
+              <a href="#" class="btn topmargin-xs boton1">Ver mas</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12">
+          <div class="pricing-container">
+            <div class="plans plan-rosado">
+              <h4>Cuotas desde:</h4>
+              <h2>$ 750.000 mensuales</h2>
+              <h4>Si tienes puntos acumulados:</h4>
+              <ul class="topmargin-xs">
+                <li>Integracion con GPS</li>
+                <li>Pagos en linea</li>
+                <li>Bono mensual para gasolina</li>
+                <li>Seguro 100% gratis tres meses.</li>
+              </ul>
+              <a href="#" class="btn topmargin-xs" style="width:100%;font-size:20px">Ver mas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--final row-->
+    </div>
+    <!--final container-->
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios">
+    <div class="container">
+      <div class="content-center text2">
+        <h1 style="color:#EEC650">Nuestros <strong>testimonios</strong></h1>
+        <p style="color:black">Por todo sur america y parte de europa contamos con nuestros clientes satisfechos los
+          cuales nos dan sus testimonios.</p>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carrousel-container">
+              <p>Mi sincero agradecimiento por su colaboración. Los ensayos de aerotecnia han sido realizados en el laboratorio del Departamento de Ingeniería.</p>
+              <div class="raiting">
+                <ul class="list-inline">
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
                 </ul>
-            </div>
-        </div><!--Cierra container navbar-->        
-    </nav>
-
-    <section id="hero">
-        <div class="col-md fondo-color">
-            <div class="container">
-                <div class="content-center topmargin-sm">
-                    <h1 class="pt-4">Potencia e ingenieria</h1>
-                    <p>El sitio web oficial de Volkswagen Colombia. ¡Un VW es más que solo un automóvil! Encuentre todo sobre nuestros modelos, ofertas, servicios y accesorios.</p>
-                    <a href="#" class="btn btn-light topmargin-sm">Explorar mas..!! 
-                        <i class="icon ion-md-arrow-dropright-circle"></i>
-                    </a>
+              </div>
+              <div class="testimonial-user">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="imagenes/user1.png" alt="user foto" class="img-fluid">
+                  </div>
+                  <div class="col-md-6">
+                    <h6 class="mt-3">Catalina Hernandez</h6>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carrousel-container">
+              <p>No tengo cómo pagarte lo mucho que haces por mí, sólo puedo decirte gracias · Que Dios retribuya toda la bondad.</p>
+              <div class="raiting">
+                <ul class="list-inline">
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                </ul>
+              </div>
+              <div class="testimonial-user">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="imagenes/user2.jpg" alt="user foto" class="img-fluid foto2 fotoMargen">
+                  </div>
+                  <div class="col-md-6">
+                    <h6 class="mt-3 texticoMargen">Adriana Rodriguez</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carrousel-container">
+              <p>Los agradecimientos ​ es una expresión de gratitud y acto de cortesía emitido por el autor por la ayuda recibida de otras personas.</p>
+              <div class="raiting">
+                <ul class="list-inline">
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                  <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
+                </ul>
+              </div>
+              <div class="testimonial-user">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="imagenes/user3.jpg" alt="user foto" class="img-fluid foto3 fotoMargen">
+                  </div>
+                  <div class="col-md-6">
+                    <h6 class="mt-3 texticoMargen">Pablo Zamora</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <div class="control-button">
+            <i class="icon ion-md-arrow-back"></i>
+          </div>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <div class="control-button">
+            <i class="icon ion-md-arrow-forward"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <section id="portafolios">
-        <div class="container-fluid mt-5">
-            <h2 class="parrafo1 content-center mt-5" style="max-width: 800px;">Trabajamos construyendo el futuro para tu bienestar y desarrollo.</h2> 
-            <p class="parrafo content-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis,ipsam! Quisquam obcaecati debitis facere, consequuntur vitae laboriosam est aspernatur libero, esse facilis inventore, quasi pariatur vel ducimus doloremque quis. Voluptatem facere consequuntur animi perferendis?</p>      
+  <section class="fondopie mb-3" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 topmargin-sm">
+          <h3>Participa en nuestros bonos <strong>mensuales</strong>
+          </h3>
+          <p style="padding:12px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In repellendus eligendi
+            mollitia voluntad, deleita id oficiá dolorem aliquam corporice quart exceptuais! Doloridas?</p>
+          <h4 class="text-primary">Fredy Colorado - Frontend Developer -</h4>
+          <h5>Junio 28 / 2019</h5>
         </div>
-        
-        <!-- Automoviles -->
-        <div class="container">
-            <div class="row">           
-                <div class="col-md-4 col-sm-12 col-xl-4">
-                    <div class="portfolio-container justify-content-around">                            
-                        <img style="width:103%;height:275px;object-fit:cover;" src="imagenes/tcroos.png" alt="automovil" class="img-fluid">
-                    </div>
-                </div>
-                    
-                <div class="col-md-4 col-sm-12">
-                    <div class="portfolio-container">
-                        <img style="width:100%;height:275px;object-fit:cover;" src="imagenes/auto2.jpg" alt="automovil" class="img-fluid">
-                    </div>
-                </div>
-                    
-                <div class="col-md-4 col-sm-12">
-                    <div class="portfolio-container justify-content-around">                            
-                        <img style="width:100%;height:275px;object-fit:cover;" src="imagenes/novo-gol.jpg" alt="automovil" class="img-fluid">
-                    </div>
-                </div>
-            </div> <!-- final primer row fotos carros-->            
-        </div> <!--final container fotos carros-->
-
-        <div class="text-center mt-5">
-            <p style="font-size:19px">Acelera tu presente rumbo al futuro</p>
-            <a href="#" style="font-weight:bold;font-size:19px">Justo ahora</a>
+        <div class="col-md-6 topmargin-sm">
+          <div class="row">
+            <form action="enviar.php" method="POST">
+              <div class="form-group">
+                <label for="usr">Nombre:</label>
+                <input type="text" class="form-control" name="nombre" required>
+              </div>
+              <div class="form-group">
+                <label for="pwd">Apellido:</label>
+                <input type="text" class="form-control" name="apellido" required>
+              </div>
+              <div class="form-group">
+                <label for="pwd">Email:</label>
+                <input type="email" class="form-control" name="correo" required>
+              </div>
+              <input type="submit" value="ENVIAR" class=" btn-danger btn-block" style="border:none;padding:6px;">
+            </form>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="abautus" class="bg-light-grey">
-        <div class="container mt-5" style="padding-bottom:80px">
-            <div class="content-center text2">
-                <h1>Keep calm you're in a <strong>good company</strong></h1>
-                <p>El sitio web oficial de Volkswagen Colombia. ¡Un VW es más que solo un automóvil! Encuentre todo sobre nuestros modelos, ofertas, servicios y accesorios.</p>       
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card">
-                        <img class="card-img-top" src="imagenes/cara1.jpg" alt="Card image" style="width:100%" title="Carolina Rodriguez">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Carolina Rodriguez B.</h4>
-                            <p class="card-text text-center">Gerente ejecutiva</p>
-                            <ul class="list-inline text-center">
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-instagram"></i></a>
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-twitter"></i></a>
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-youtube"></i></a>
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-facebook"></i></a>
-                            </ul>                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card">
-                        <img class="card-img-top" src="imagenes/cara3.jpg" alt="Card image" style="width:100%" title="Manuel Karzon">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Manuel Karzon H.</h4>
-                            <p class="card-text text-center">Diseñador creativo</p>
-                            <ul class="list-inline text-center">
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-instagram"></i></a>
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-twitter"></i></a>
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-youtube"></i></a>
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-facebook"></i></a>
-                            </ul>                              
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card">
-                        <img class="card-img-top" src="imagenes/cara2.jpg" alt="Card image" style="width:100%" title="Jose Luis Martinez">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Jose Luis Martinez</h4>
-                            <p class="card-text text-center">Ingeniero industrial</p>
-                            <ul class="list-inline text-center">
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-instagram"></i></a>
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-twitter"></i></a>
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-youtube"></i></a>
-                                <li class="list-inline-item"></li><a href=""><i class="icon ion-logo-facebook"></i></a>
-                            </ul>                              
-                        </div>
-                    </div>
-                </div>
-            </div> <!--final row-->
-        </div> <!--final container-->
-    </section>
-
-    <section id="pricing">
-        <div class="container">
-            <div class="content-center text2">
-                <h1 style="color:#E04B4B">Aprovecha, <strong>descuentos del 20%</strong></h1>
-                <p style="color:#433764">Por compra de cualquiera de nuestros modelos, recibe un descuento del 20% en las tres primeras cuotas mensuales.</p>       
-            </div>
-
-            <div class="row">
-                <div class="col-md col-sm-12">
-                    <div class="pricing-container">
-                        <div class="plans plan-light">
-                            <h4>Cuotas desde:</h4>
-                            <h2>$ 450.000 mensuales</h2>
-                            <h4>Si tienes puntos acumulados:</h4>
-                            <ul class="topmargin-xs">
-                                <li>Integracion con GPS</li>
-                                <li>Pagos en linea</li>
-                                <li>Servicio las 24 horas del dia</li>
-                                <li>Seguro 50% gratis dos meses.</li>
-                            </ul>
-                            <a href="#" class="btn topmargin-xs boton1">Ver mas</a>                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-sm-12">
-                    <div class="pricing-container">
-                        <div class="plans plan-rosado">
-                            <h4>Cuotas desde:</h4>
-                            <h2>$ 750.000 mensuales</h2>
-                            <h4>Si tienes puntos acumulados:</h4>
-                            <ul class="topmargin-xs">
-                                <li>Integracion con GPS</li>
-                                <li>Pagos en linea</li>
-                                <li>Bono mensual para gasolina</li>
-                                <li>Seguro 100% gratis tres meses.</li>
-                            </ul>
-                            <a href="#" class="btn topmargin-xs" style="width:100%;font-size:20px">Ver mas</a> 
-                        </div>
-                    </div>                  
-                </div>
-            </div><!--final row-->
-        </div> <!--final container-->        
-    </section>
-    
-    <!-- Testimonios -->
-    <section id="testimonios">
-        <div class="container">
-            <div class="content-center text2">
-                <h1 style="color:#EEC650">Nuestros <strong>testimonios</strong></h1>
-                <p style="color:black">Por todo sur america y parte de europa contamos con nuestros clientes satisfechos los cuales nos dan sus testimonios.</p>       
-            </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="carrousel-container">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quam, quas quo deserunt consequuntur dolores officia soluta sunt dolorum iure, architecto fugit incidunt!</p>
-                            <div class="raiting">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="testimonial-user">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="imagenes/user1.png" alt="user foto" class="img-fluid"> 
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h6 class="mt-3">Catalina Hernandez</h6>                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carrousel-container">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quam, quas quo deserunt xxx dolores officia soluta sunt dolorum iure, architecto fugit incidunt!</p>
-                            <div class="raiting">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>           
-                                </ul>
-                            </div>
-                            <div class="testimonial-user">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="imagenes/user2.jpg" alt="user foto" class="img-fluid foto2 fotoMargen"> 
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h6 class="mt-3 texticoMargen">Adriana Rodriguez</h6>                               
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carrousel-container">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quam, quas quo deserunt consequuntur dolores officia soluta sunt dolorum iure, architecto fugit incidunt tatatata!</p>
-                            <div class="raiting">
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                    <li class="list-inline-item"><i class="icon ion-md-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="testimonial-user">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="imagenes/user3.jpg" alt="user foto" class="img-fluid foto3 fotoMargen"> 
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h6 class="mt-3 texticoMargen">Pablo Zamora</h6>                                   
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"    data-slide="prev">
-                    <div class="control-button">
-                        <i class="icon ion-md-arrow-back"></i>
-                    </div>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <div class="control-button">
-                        <i class="icon ion-md-arrow-forward"></i>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- <hr style="margin-top:30px"> -->
-
-    <section class="fondopie mb-3" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 topmargin-sm">
-                    <h3>Participa en nuestros bonos <strong>mensuales</stron></h3>
-                    <p style="padding:12px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In repellendus eligendi mollitia voluptate, deleniti id officia doloremque aliquam corporis quaerat excepturi! Doloribus?</p>
-                    <h4 class="text-primary">Fredy Colorado - Frontend Developer -</h4>
-                    <h5>Junio 28 / 2019</h5>
-                </div>
-                <div class="col-md-6 topmargin-sm">
-                    <div class="row">                           
-                        <form action="enviar.php" method="POST">
-                            <div class="form-group">
-                                <label for="usr">Nombre:</label>
-                                <input type="text" class="form-control" name="nombre" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="pwd">Apellido:</label>
-                                <input type="text" class="form-control" name="apellido" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="pwd">Email:</label>
-                                <input type="email" class="form-control" name="correo" required>
-                            </div>                            
-                            <input type="submit" value="ENVIAR" class=" btn-danger btn-block" style="border:none;padding:6px;">
-                        </form>                            
-                    </div>                  
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>

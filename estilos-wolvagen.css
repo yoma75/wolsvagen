@@ -285,8 +285,12 @@ body{
 }
 
 .fondopie {
-	background-color: yellow;
+	background-color: rgba(247, 247, 201, 0.555);
 	padding: 45px;
+}
+
+img {
+    object-fit: cover;
 }
 
 /* Gracias.html */
@@ -299,6 +303,12 @@ body{
 }
 
 @media (min-width:320px) and (max-width:506px) {
+    .testimonial-user {
+        max-width: 100px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
     .plans {       
         padding: 20px 20px;        
         min-width: 250px;
@@ -306,7 +316,7 @@ body{
     }
 
     .form-control {
-        width: 280px !important;    
+        width: 250px !important;    
     }
 
     .card {
