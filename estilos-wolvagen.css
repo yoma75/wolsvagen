@@ -31,7 +31,7 @@ body{
 
 /*imagen fondo*/
 #hero{
-    background-image: url('./imagenes/Concesioario.jpg');
+    background-image: url('./imagenes/Volkswagen.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
@@ -39,10 +39,10 @@ body{
 }
 
 /* Fondo gris encima de foto concesionario */
-.fondo-color {
+/* .fondo-color {
     background-color: #1c1c1d86;
     padding-bottom: 2px;    
-}
+} */
 
 
 /*contenedor del texto imagen principal y segundo*/
@@ -79,14 +79,14 @@ body{
 .topmargin-sm{ margin-top: 30px; } 
 .topmargin-lg{ margin-top: 140px; } /*Entre el borde superior de la imagen principal y el texto*/
 
-/*boton*/
+/*botón*/
 .content-center a{
     font-size: 15px;
     padding: 15px 26px;  /*15px: arriba y abajo, 26px: hacia los lados*/    
     font-weight: bold;
 }
 
-/*espacio entre el icono del boton y el texto interno del boton*/
+/*espacio entre el icono del botón y el texto interno del botón*/
 .btn i{
     font-size: 12px;
     margin-left: 7px;
@@ -122,7 +122,7 @@ body{
     margin-top: -30px;
 }
 
-/*edicion texto automoviles fila 2*/
+/*edición texto automóviles fila 2*/
 .texto a h2, .texto a p{
     color: white;
 }
@@ -207,7 +207,7 @@ body{
     border-radius: 20px !important;
 }
 
-/* Boton negro, cuadro blanco */
+/* Botón negro, cuadro blanco */
 .boton1 {
     background-color: white !important;    
     width: 100%;
@@ -285,8 +285,12 @@ body{
 }
 
 .fondopie {
-	background-color: yellow;
+	background-color: rgba(247, 247, 201, 0.555);
 	padding: 45px;
+}
+
+img {
+    object-fit: cover;
 }
 
 /* Gracias.html */
@@ -299,6 +303,12 @@ body{
 }
 
 @media (min-width:320px) and (max-width:506px) {
+    .testimonial-user {
+        max-width: 100px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
     .plans {       
         padding: 20px 20px;        
         min-width: 250px;
@@ -306,7 +316,7 @@ body{
     }
 
     .form-control {
-        width: 280px !important;    
+        width: 250px !important;    
     }
 
     .card {
