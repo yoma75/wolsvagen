@@ -31,7 +31,7 @@ body{
 
 /*imagen fondo*/
 #hero{
-    background-image: url('./imagenes/Volkswagen.jpg');
+    background-image: url('./imagenes/Concesioario.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
@@ -39,10 +39,11 @@ body{
 }
 
 /* Fondo gris encima de foto concesionario */
-/* .fondo-color {
-    background-color: #1c1c1d86;
-    padding-bottom: 2px;    
-} */
+.fondo-color {
+    background-color: #1c1c1d47;
+    padding-bottom: 2px;   
+    min-height: 700px; 
+}
 
 
 /*contenedor del texto imagen principal y segundo*/
