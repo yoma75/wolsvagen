@@ -323,6 +323,10 @@ img {
     .card {
         margin-bottom: 19px;
     }
+
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 14px;
+    }
 }
 
 @media (min-width:507px) and (max-width:765px) {
