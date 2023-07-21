@@ -31,19 +31,27 @@ body{
 
 /*imagen fondo*/
 #hero{
-    background-image: url('./imagenes/Volkswagen.jpg');
+    background-image: url('./imagenes/Concesioario.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
     color: white;    
 }
 
-/* Fondo gris encima de foto concesionario */
-/* .fondo-color {
-    background-color: #1c1c1d86;
-    padding-bottom: 2px;    
-} */
+/* Centrar el texto en la imagen central */
+#hero .container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+/* Fondo gris encima de foto concesionario */
+.fondo-color {
+    background-color: #1c1c1d47;
+    padding-bottom: 2px;   
+    min-height: 700px; 
+}
 
 /*contenedor del texto imagen principal y segundo*/
 .content-center{
@@ -204,7 +212,14 @@ body{
 
 .btn {
     background-color: white !important;
-    border-radius: 20px !important;
+    border-radius: 5px !important;
+}
+
+.btn:hover {
+    background-color: #17151c !important;
+    color: #fff !important;
+    border: none;
+    box-shadow: 8px 7px 12px 0px rgba(202,247,24,1);
 }
 
 /* Botón negro, cuadro blanco */
@@ -321,6 +336,10 @@ img {
 
     .card {
         margin-bottom: 19px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 14px;
     }
 }
 
